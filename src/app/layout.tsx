@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body className={`${robotoMono.className} antialiased`}>
         <NavbarDemo></NavbarDemo>
         <main className="flex min-h-screen flex-col items-center pt-24 lg:p-24">

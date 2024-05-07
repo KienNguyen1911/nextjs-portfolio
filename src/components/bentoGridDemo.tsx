@@ -1,3 +1,4 @@
+"use client";
 import { cn } from "@/utils/cn";
 import React from "react";
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
@@ -13,7 +14,7 @@ import {
 import { lobster, lusitana } from '@/app/ui/fonts';
 import clsx from "clsx";
 import Image from "next/image";
-
+import { BackgroundGradient } from "@/components/ui/background-gradient";
 
 export function BentoGridDemo() {
   return (
@@ -58,7 +59,7 @@ const Colledge = () => (
 
 const Avatar = () => (
   <div className="flex items-center justify-center w-full h-full bg-gradient-to-br overflow-hidden from-[#4d49ff] to-slate-300 rounded-xl">
-    <Image alt="Tech Stack" src="/avatar-removebg-preview.png" width={150}  height={300} />
+    <Image alt="Tech Stack" src="/avatar-removebg-preview.png" width={150} height={300} />
   </div>
 );
 
@@ -73,6 +74,19 @@ const Level = () => (
     <div className={`${lobster.className} text-white font-bold text-4xl`}>1.5 yoe</div>
   </div>
 );
+
+const Tools = () => (
+  // I want to display an image that is fit in the card
+  <BackgroundGradient className="flex items-center justify-center rounded-[22px] w-full h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ">
+    {/* <div className="flex items-center justify-center w-full h-full bg-gradient-to-br overflow-hidden from-teal-700 to-indigo-600 rounded-xl"> */}
+      <Image alt="Tech Stack" src="/github-icon-29.png" width={104} height={600} className="object-fill mr-2" />
+      <Image alt="Tech Stack" src="/jetbrains.png" width={104} height={600} className="rounded-3xl object-fill mr-2" />
+      <Image alt="Tech Stack" src="/postman.png" width={104} height={600} className="object-fill" />
+      <Image alt="Tech Stack" src="/Figma-Logo-PNG-Cutout.png" width={120} height={600} className="object-fill" />
+    {/* </div> */}
+  </BackgroundGradient>
+);
+
 
 const items = [
   {
@@ -113,9 +127,9 @@ const items = [
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Spirit of Adventure",
-    description: "Embark on exciting journeys and thrilling discoveries.",
-    header: <Skeleton />,
+    title: "The Tools of Developing path",
+    description: "Github, Jetbrains IDE, Postman, Figma,... I am familiar with them all.",
+    header: <Tools />,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },
 ];

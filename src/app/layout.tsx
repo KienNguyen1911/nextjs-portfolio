@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { inter, robotoMono } from '@/app/ui/fonts';
 import { NavbarDemo } from "@/components/navbarDemo";
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -20,6 +21,7 @@ export default function RootLayout({
         <main className="flex min-h-screen flex-col items-center pt-24 lg:p-24">
           {children}
         </main>
+        <Analytics />
       </body>
     </html>
   );

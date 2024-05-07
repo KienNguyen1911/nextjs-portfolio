@@ -52,19 +52,19 @@ const TechStack = () => (
 const Colledge = () => (
   // I want to display an image that is fit in the card
   <div className="flex items-center justify-center w-full h-full bg-gradient-to-br overflow-hidden from-blue-700 to-indigo-600 rounded-xl">
-    <Image alt="Tech Stack" src="/btec.jpg" width={300} className="max-w-md" />
+    <Image alt="Tech Stack" src="/btec.jpg" width={300} className="max-w-md" height={300} />
   </div>
 );
 
 const Avatar = () => (
   <div className="flex items-center justify-center w-full h-full bg-gradient-to-br overflow-hidden from-[#4d49ff] to-slate-300 rounded-xl">
-    <Image alt="Tech Stack" src="/avatar-removebg-preview.png" width={150} />
+    <Image alt="Tech Stack" src="/avatar-removebg-preview.png" width={150}  height={300} />
   </div>
 );
 
 const Giphy = () => (
   <div className="flex items-center justify-center w-full h-full bg-gradient-to-br overflow-hidden from-[#4d49ff] to-slate-300 rounded-xl">
-    <Image alt="Tech Stack" src="/giphy.gif" width={300} className="max-w-md" />
+    <Image alt="Tech Stack" src="/giphy.gif" width={300} className="max-w-md" height={300} />
   </div>
 );
 

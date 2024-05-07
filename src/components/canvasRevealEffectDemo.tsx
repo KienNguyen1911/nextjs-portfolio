@@ -8,16 +8,19 @@ import Image from "next/image";
 export function CanvasRevealEffectDemo() {
 	const listColor = [
 		{
+			id: 1,
 			colors: [[0, 255, 255]],
 			icon: 'facebook',
 			content: 'facebook.com/KienNguyen1911'
 		},
 		{
+			id: 2,
 			colors: [[236, 72, 153], [232, 121, 249]],
 			icon: 'linkedin',
 			content: 'linkedin.com/in/kiennguyen1911'
 		},
 		{
+			id: 3,
 			colors: [[125, 211, 252]],
 			icon: 'phone',
 			content: '09-6262-1911'
@@ -27,7 +30,8 @@ export function CanvasRevealEffectDemo() {
 		<div className="pt-10 flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-black w-full gap-4 mx-auto px-8">
 			{
 				listColor.map((item, index) => (
-					<div key={index}
+					<div
+						key={item.id}
 						className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative h-[30rem] relative">
 						<Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
 						<Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />

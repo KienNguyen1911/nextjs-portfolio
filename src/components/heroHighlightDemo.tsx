@@ -20,20 +20,18 @@ export function HeroHighlightDemo() {
         }}
         className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-5xl leading-relaxed lg:leading-snug text-center mx-auto "
       >
-        "Give someone a program,
+        &ldquo;Give someone a program,
         <br />
-        you frustrate them `&quot;`
+        you frustrate them {""}
         <Highlight className="text-black dark:text-white">
             for a day
         </Highlight>;
         <br />
         Teach them how to program, 
         <br />
-        you frustrate them{"&quot; "}
-        <Highlight className="text-black dark:text-white">
-            for a lifetime
-        </Highlight>
-        "
+        you frustrate them {""}
+        <Highlight className="text-black dark:text-white">for a lifetime</Highlight>
+        &rdquo;
         <br />
         - David Leinweber
       </motion.h1>

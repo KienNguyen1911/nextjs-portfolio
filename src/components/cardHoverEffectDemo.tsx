@@ -9,39 +9,39 @@ export function CardHoverEffectDemo() {
 }
 export const projects = [
   {
-    title: "Stripe",
+    title: "Warehouse management system",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
-    link: "https://stripe.com",
+      "Building a system providing solutions for moving goods between warehouses and performing complex operations",
+    link: "#",
   },
   {
-    title: "Netflix",
+    title: "Hotel and Booking Management System",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    link: "https://netflix.com",
+      "Building a website that offer features such as hotel reservations, travel guides, maps, or travel planning tools.",
+    link: "#",
   },
   {
-    title: "Google",
+    title: "Relay Data Application",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
-    link: "https://google.com",
+      "Building a system that allows users to send, receive, transform data to stakeholders.",
+    link: "#",
   },
   {
-    title: "Meta",
+    title: "Remind System",
     description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-    link: "https://meta.com",
+      "Building a system that allows users to set reminders for important events.",
+    link: "#",
   },
   {
-    title: "Amazon",
+    title: "Crawler System (Personal Project)",
     description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-    link: "https://amazon.com",
+      "Crawler system that crawls or scrapes data from websites and stores it in a database.",
+    link: "#",
   },
   {
-    title: "Microsoft",
+    title: "Custom UltimatePOS (Personal Project)",
     description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-    link: "https://microsoft.com",
+      "Based on UltimatePOS, I have customized it to meet the needs of my business.",
+    link: "#",
   },
 ];

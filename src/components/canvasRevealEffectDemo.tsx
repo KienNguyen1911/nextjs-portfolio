@@ -23,7 +23,7 @@ export function CanvasRevealEffectDemo() {
 			id: 3,
 			colors: [[125, 211, 252]],
 			icon: 'phone',
-			content: '09-6262-1911'
+			content: 'ngkien1911@gmail.com'
 		},
 	];
 	return (
@@ -156,7 +156,7 @@ const LinkedinIcon = () => {
 const PhoneIcon = () => {
 	return (
 		<Image
-			src="/phone.svg"
+			src="/envelope-solid.svg"
 			width={140}
 			height={70}
 			alt="Phone number"

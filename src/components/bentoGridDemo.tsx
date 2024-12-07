@@ -71,7 +71,7 @@ const Giphy = () => (
 
 const Level = () => (
   <div className="flex items-center justify-center w-full min-h-40 h-full bg-gradient-to-br from-blue-700 to-indigo-600 rounded-xl">
-    <div className={`${lobster.className} text-white font-bold text-4xl`}>1.5 yoe</div>
+    <div className={`${lobster.className} text-white font-bold text-4xl`}>2 yoe</div>
   </div>
 );
 
